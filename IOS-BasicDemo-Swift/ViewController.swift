@@ -37,7 +37,7 @@ class ViewController: UIViewController, ADSMapDelegate {
     }
     
     func floorChanged(_ id: Int) {
-        print("Floor Changed : %d!", id)
+        print("Floor Changed : \(id)!")
     }
     
     func mapLoaded() {
