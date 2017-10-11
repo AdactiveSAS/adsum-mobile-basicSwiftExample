@@ -18,10 +18,10 @@ class ViewController: UIViewController, ADSMapDelegate {
         
         //setting up Options (change apiKey, site and device with your own data)
         let options = ADSOptions()
-        options.apiKey  = [apiKey]
-        options.site    = [site]
-        options.device  = [device]
-        options.apiBaseUrl  = "http://api.adsum.io"
+        options.apiKey  = "f2bc584ed0ae8b8753530287fb2fe1b82621359283f2a29e330c30da24f8d2c8"
+        options.site    = 404
+        options.device  = 561
+        options.apiBaseUrl  = "http://api.adsum.io" //Use "http://asia-api.adsum.io" if your site is on our Asian server
         
         //setting up dataManager with options
         let dataManager = ADSDataManager(adsOptions: options)
