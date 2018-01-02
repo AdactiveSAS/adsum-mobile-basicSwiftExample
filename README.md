@@ -1,7 +1,20 @@
 # BasicApp using Adsum
 
-Example show the bare integration of our SDK.
-It show the map on the default floor.
+### Features
+
+This BasicApp Shows code examples of :
+
+- ADSMapDelegate
+- AdsumCoreView
+- ADSDataManager
+	- ADSOptions
+
+This BasicApp Example shows the bare integration of our SDK.
+It will show the map of the default floor.
+
+### Basic Info
+
+Swift Version: 3.2
 
 ### Prerequisites
 
@@ -21,3 +34,10 @@ Import Adsum in swift's files where you want to use Adsum
 
 In viewDidLoad :
 Create an ADSOption with your apiKey, site, and device
+
+## Screenshot
+
+<div align="left" style="border:1px solid black">
+     <img width="45%" src="/BasicSwiftExampleScreenshot.jpeg" alt="iOS Screenshot" title="iOS Screenshot"</img>
+</div>
+
